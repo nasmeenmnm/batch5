@@ -11,6 +11,7 @@
     "test": "npm run lint:mdx"
   },
   "dependencies": {
+    "@napi-rs/simple-git": "^0.1.19",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "^10.4.20",
     "next": "15.0.3",
