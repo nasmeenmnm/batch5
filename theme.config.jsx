@@ -5,24 +5,32 @@ import { useConfig } from "nextra-theme-docs";
 const config = {
   logo: <Logo />,
   project: {
-    name: "FOSSUOK",
-    link: "https://github.com/fossuok",
+    name: "batch5",
+    link: "https://github.com/UOK-CS-Batch5",
   },
-  docsRepositoryBase: 'https://github.com/fossuok/nextra-doc-template/issues',
-  banner: {
-    key: 'Join Foss UOK',
-    content: (
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSePWol8KVzrh8w-sTsoZCDo7_zwnVmxZznjNJMlA19CBOKmHQ/viewform" target="_blank">
-        😊 Join FOSS UOK Community. Join here →
-      </a>
-    )
-  },
+  docsRepositoryBase: 'https://github.com/UOK-CS-Batch5/batch5/discussions',
+  // banner: {
+  //   key: 'Welcome to batch5',
+  //   content: (
+  //     <>
+  //       <h1>👋 Welcome to batch5</h1>
+  //       <p>
+  //         This is the official website of batch5. You can find all the resources related to batch5 here.
+  //       </p>
+  //     </>
+  //   ),
+  //   content: (
+  //     <a href="https://github.com/UOK-CS-Batch5" target="_blank">
+  //       😊 UOK CS 5th Batch. View us here →
+  //     </a>
+  //   )
+  // },
   footer: {
     content: (
       <>
         <h1>
-          <a href="https://fossuok.org/" target="_blank">
-            {"MIT License © 2024 FOSSUOK."}  
+          <a href="https://github.com/UOK-CS-Batch5" target="_blank">
+            {"MIT License © 2024"}  
           </a>
         </h1>
       </>
