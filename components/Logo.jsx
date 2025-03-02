@@ -11,7 +11,6 @@ const Logo = () => {
         alt="batch5"
         width={100}
         height={100}
-        layout="fixed"
       />
       <span>5<sup>th</sup> Computer Science Batch, University of Kelaniya</span>
     </>
