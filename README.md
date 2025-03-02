@@ -1,38 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UOK CS 5th Batch Website
 
-## Getting Started
+Welcome to the official website of the **5th Batch of Computer Science Students** at the **University of Kelaniya**! 🎓
 
-First, run the development server:
+This website serves as a platform for showcasing the details, profiles, and projects of our batch.
+
+## 🚀 Features
+
+- **Student Profiles**: Each student can add their personal details to the website.
+- **Projects**: Showcase your individual or group projects.
+- **Event Updates**: Stay updated with the latest events and announcements.
+- **Open-Source Contributions**: See how we contribute to the open-source community.
+
+## 🌱 Get Started
+
+To get started with this project locally, follow the steps below:
+
+### 1. Clone the repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/UOK-CS-Batch5/batch5.git
+```
+
+### 2. Install dependencies
+
+Navigate to the project directory and install dependencies:
+
+```bash
+cd batch5
+npm install
+```
+
+### 3. Run the development server
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit `http://localhost:3000` to view the site locally.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Next.js** for building the website.
+- **MDX** for content management and documentation.
+- **Tailwind CSS** for styling.
+- **GitHub Pages** for deployment.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 📚 How to Contribute
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome contributions from everyone! Whether you're adding your own profile, fixing bugs, or improving the documentation, follow the steps below:
 
-## Learn More
+1. Fork the repository.
+2. Create a folder in the `pages` directory with your name (no spaces).
+3. Add your details in the form of MDX files (`about.mdx`, `me.mdx`, etc.) and a `_meta.js` file.
+4. Run `npm test` to validate your changes.
+5. Submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+For detailed instructions, see the [Contribution Guidelines](CONTRIBUTING.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🐛 Reporting Issues
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you encounter any issues with the website or have any suggestions, please open an issue in the **Issues** tab of this repository.
 
-## Deploy on Vercel
+## 📬 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to reach out to the batch for any inquiries or updates:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Email: [Email](1pawanpinsara@gmail.com)
+- GitHub: [UOK-CS-Batch5](https://github.com/UOK-CS-Batch5)
+
+---
+
+**License**  
+This project is licensed under the **MIT License**.
+
+---
+
+Thank you for visiting and contributing to the **UOK CS 5th Batch** website! Let’s make it awesome together! 😄
+
+---
+
+### **Key Details:**
+
+- **`CONTRIBUTING.md`**: Provides clear instructions for contributors to follow, including folder structure, naming conventions, and how to run tests (`npm test`) before submitting a pull request.
+  
+- **`README.md`**: Introduces the project, explains its features, and provides installation and contribution guidelines. It also includes information on how to report issues and contact the team.
+
+---
+
+### **Next Steps:**
+   
+1. **Communicate clearly** in the **Pull Request description** about the changes made, following the structure mentioned in the **Contributing Guidelines**.
+
+2. **Discussions** page for collaboration, asking for help, or proposing new ideas. This will help you to communicate and collaborate more easily.
+
