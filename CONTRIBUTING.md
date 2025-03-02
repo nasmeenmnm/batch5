@@ -93,7 +93,7 @@ git push origin your-branch-name
 
 ### 8. Create a Pull Request
 
-Go to your forked repository on GitHub and create a pull request against the `main` branch of the **UOK-CS-Batch5** organization’s repository.
+Go to your forked repository on GitHub and create a pull request against the `dev` branch of the **UOK-CS-Batch5** organization’s repository.
 
 Provide a detailed description of the changes you've made, including your name and any files you've added.
 
