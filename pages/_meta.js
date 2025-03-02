@@ -1,7 +1,9 @@
 const meta = {
     index: "Introduction",
     about: "About Us",
-    component: "Component",
+    component: "Meet the Team",
+    Pawan_Pinsara: "Pawan Pinsara",
+    Amindu_Bhashana: "Amindu Bhashana",
 }
 
 export default meta;
