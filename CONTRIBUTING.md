@@ -14,7 +14,7 @@ Start by forking the repository to your GitHub account.
 Clone your forked repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/batch5-website.git
+git clone https://github.com/your-username/batch5.git
 ```
 
 ### 3. Add Your Folder
@@ -26,7 +26,7 @@ Inside this folder, create your **MDX files** (`about.mdx`, `me.mdx`, etc.) and 
 
 ```
 pages/
-  peter-mac/
+  Peter_Parker/
     about.mdx
     me.mdx
     _meta.js
@@ -36,7 +36,7 @@ pages/
 
 ```js
 const meta = {
-    me: "Peter Mac",
+    me: "Peter Parker",
     about: "About Me"
 }
 
@@ -54,12 +54,12 @@ Ensure that your MDX files (`about.mdx`, `me.mdx`, etc.) are properly formatted.
 ```mdx
 ---
 title: "About Me"
-description: "Learn more about Peter Mac, a passionate Computer Science student."
+description: "Learn more about Peter Parker, a passionate Computer Science student."
 ---
 
 # About Me
 
-Hi! I'm **Peter Mac**, a 5th batch Computer Science student at the University of Kelaniya. I have a passion for programming and problem-solving, and I enjoy working on web development projects.
+Hi! I'm **Peter**, a 5th batch Computer Science student at the University of Kelaniya. I have a passion for programming and problem-solving, and I enjoy working on web development projects.
 ```
 
 ### 5. Run Tests
@@ -80,7 +80,7 @@ Once you’ve made your changes, commit them to your branch:
 
 ```bash
 git add .
-git commit -m "Added Peter Mac details"
+git commit -m "your commit message"
 ```
 
 ### 7. Push Your Changes

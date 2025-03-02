@@ -1,6 +1,6 @@
 # UOK CS 5th Batch Website
 
-Welcome to the official website of the **5th Batch of Computer Science Students** at the **University of Kelaniya**! 🎓
+Welcome to the official portal of the **5th Batch of Computer Science Students** at the **University of Kelaniya**! 🎓
 
 This website serves as a platform for showcasing the details, profiles, and projects of our batch.
 
