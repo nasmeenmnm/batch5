@@ -62,7 +62,38 @@ description: "Learn more about Peter Parker, a passionate Computer Science stude
 Hi! I'm **Peter**, a 5th batch Computer Science student at the University of Kelaniya. I have a passion for programming and problem-solving, and I enjoy working on web development projects.
 ```
 
-### 5. Run Tests
+### 5. Add your folder to pages/_meta.js
+Go to the `pages` directory in your project, you'll see _meta.js. Inside of this file, add your folder with your prefered name to display on the website.
+
+#### Folder Structure Example:
+
+```
+pages/
+  Harry_Potter
+  Peter_Parker
+  _app.jsx
+  _meta.js
+  about.mdx
+  index.mdx
+```
+
+#### Example of `_meta.js`:
+
+```js
+const meta = {
+    index: "Introduction",
+    about: "About Us",
+    component: "Meet the Team",
+    Pawan_Pinsara: "Pawan Pinsara",
+    Peter_Parker: "Peter Parker",     # --> add your name here
+}
+
+export default meta;
+```
+
+This file will be used to manage the titles of your pages as they appear on the website.
+
+### 6. Run Tests
 
 Before submitting your pull request, **always run the tests** to ensure your MDX files are properly formatted and everything is in order.
 
@@ -70,6 +101,18 @@ To run the tests, use the following command:
 
 ```bash
 npm test
+```
+
+example: you'll see like,
+
+```bash
+pages\about.mdx: no issues found
+pages\component\mydoc.mdx: no issues found
+pages\index.mdx: no issues found
+pages\Peter_Parker\about.mdx: no issues found
+pages\Peter_Parker\me.mdx: no issues found
+
+✅ All tests passed successfully!
 ```
 
 Make sure there are no errors or warnings before proceeding.
@@ -93,7 +136,7 @@ git push origin your-branch-name
 
 ### 8. Create a Pull Request
 
-Go to your forked repository on GitHub and create a pull request against the `main` branch of the **UOK-CS-Batch5** organization’s repository.
+Go to your forked repository on GitHub and create a pull request against the `dev` branch of the **UOK-CS-Batch5** organization’s repository.
 
 Provide a detailed description of the changes you've made, including your name and any files you've added.
 
