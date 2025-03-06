@@ -1,5 +1,4 @@
 const meta = {
-    me: "Pawan Pinsara",
     about: "About Me",
 }
 
