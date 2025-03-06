@@ -1,5 +1,4 @@
 const meta = {
-    me: "Mihitha Wanniarachchi",
     about: "About Me",
 }
 
