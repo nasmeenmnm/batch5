@@ -117,7 +117,7 @@ pages\Peter_Parker\me.mdx: no issues found
 
 Make sure there are no errors or warnings before proceeding.
 
-### 6. Commit Your Changes
+### 7. Commit Your Changes
 
 Once you’ve made your changes, commit them to your branch:
 
@@ -126,7 +126,7 @@ git add .
 git commit -m "your commit message"
 ```
 
-### 7. Push Your Changes
+### 8. Push Your Changes
 
 Push your changes to your fork:
 
@@ -134,13 +134,13 @@ Push your changes to your fork:
 git push origin your-branch-name
 ```
 
-### 8. Create a Pull Request
+### 9. Create a Pull Request
 
 Go to your forked repository on GitHub and create a pull request against the `dev` branch of the **UOK-CS-Batch5** organization’s repository.
 
 Provide a detailed description of the changes you've made, including your name and any files you've added.
 
-### 9. Follow the Code of Conduct
+### 10. Follow the Code of Conduct
 
 We expect all contributors to adhere to our **Code of Conduct**:
 
@@ -148,7 +148,7 @@ We expect all contributors to adhere to our **Code of Conduct**:
 - Communicate in a friendly and professional manner.
 - Be open to feedback.
 
-### 10. Use Discussions for Collaboration
+### 11. Use Discussions for Collaboration
 
 If you have any questions, need clarification, or want to discuss ideas with other contributors, please use the **Discussions** page in the repository. It’s a great place to collaborate, ask for help, and share ideas. 
 
