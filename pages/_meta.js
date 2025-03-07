@@ -9,7 +9,7 @@ const meta = {
     Tharusha: "Tharusha Kavindi",
     Apeksha:"Apeksha Pathirage",
     Dilshana_Ranawake: "Dilshana Ranawake",
-    Piyumi_Weerarathna:"Piyumi Weerarathna"
+    Piyumi_Weerarathna:"Piyumi Weerarathna",
     Dehemi_Weerakoon:"Dehemi Weerakoon",
 }
 
