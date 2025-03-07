@@ -8,7 +8,8 @@ const meta = {
     Mihitha_Wanniarachchi: "Mihitha Wanniarachchi",
     Tharusha: "Tharusha Kavindi",
     Apeksha:"Apeksha Pathirage",
-    "Piyumi_Weerarathna":"Piyumi Weerarathna"
+    Dilshana_Ranawake: "Dilshana Ranawake",
+    Piyumi_Weerarathna:"Piyumi Weerarathna"
 }
 
 export default meta;
