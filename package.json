@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint \"**/*.mdx\" --no-ignore",
-    "lint:mdx": "eslint \"pages/**/*.mdx\" --no-ignore && remark . --ext .mdx && cat success.txt || cat failure.txt",
+    "lint:mdx": "eslint \"pages/**/*.mdx\" --no-ignore && remark . --ext .mdx && type success.txt || type failure.txt",
     "test": "npm run lint:mdx"
   },
   "dependencies": {
