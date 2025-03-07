@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint \"**/*.mdx\" --no-ignore",
-    "lint:mdx": "npx eslint \"pages/**/*.mdx\" --no-ignore && npx remark . --ext .mdx && type success.txt || type failure.txt",
+    "lint:mdx": "eslint \"pages/**/*.mdx\" --no-ignore && remark . --ext .mdx && cat success.txt || cat failure.txt",
     "test": "npm run lint:mdx"
   },
   "dependencies": {
@@ -29,7 +29,6 @@
     "eslint-plugin-mdx": "^3.1.5",
     "remark-cli": "^12.0.1",
     "remark-lint": "^10.0.0",
-    "remark-preset-lint-consistent": "^6.0.1",
-    "remark-preset-lint-recommended": "^7.0.1"
+    "remark-preset-lint-recommended": "^7.0.0"
   }
 }
