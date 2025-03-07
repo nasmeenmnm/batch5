@@ -10,6 +10,7 @@ const meta = {
     Apeksha:"Apeksha Pathirage",
     Dilshana_Ranawake: "Dilshana Ranawake",
     Piyumi_Weerarathna:"Piyumi Weerarathna"
+    Dehemi_Weerakoon:"Dehemi Weerakoon",
 }
 
 export default meta;
